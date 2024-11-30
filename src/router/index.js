@@ -36,7 +36,7 @@ const routes =[
         name:'LoginOne',
         component:LoginOne,
         meta: {
-            title: 'Floating Blood Bank | dfjfn',
+            title: 'Login | Floating Blood Bank',
           }
       },
       {
@@ -44,7 +44,7 @@ const routes =[
         name:'LoginValidate',
         component:LoginValidate,
         meta: {
-            title: 'LoginValidate | Cuba - Premium Admin Template',
+            title: 'LoginValidate | Floating Blood Bank',
           }
       },
       {
@@ -52,7 +52,7 @@ const routes =[
         name:'LoginTooltip',
         component:LoginTooltip,
         meta: {
-            title: 'LoginTooltip | Cuba - Premium Admin Template',
+            title: 'LoginTooltip | Floating Blood Bank',
           }
       },
       {
@@ -60,7 +60,7 @@ const routes =[
         name:'LoginSweetalert',
         component:LoginSweetalert,
         meta: {
-            title: 'LoginTooltip | Cuba - Premium Admin Template',
+            title: 'LoginTooltip | Floating Blood Bank',
           }
       },
       {
@@ -68,7 +68,7 @@ const routes =[
         name:'RegisterImage2',
         component:RegisterImage2,
         meta: {
-            title: 'RegisterImage2 | Cuba - Premium Admin Template',
+            title: 'RegisterImage2 | Floating Blood Bank',
           }
       },
       {
@@ -76,7 +76,7 @@ const routes =[
         name:'Unlock',
         component:Unlock,
         meta: {
-            title: 'Unlock | Cuba - Premium Admin Template',
+            title: 'Unlock | Floating Blood Bank',
           }
       },
       {
@@ -84,7 +84,7 @@ const routes =[
         name:'ForgetPassword',
         component:ForgetPassword,
         meta: {
-            title: 'ForgetPassword | Cuba - Premium Admin Template',
+            title: 'ForgetPassword | Floating Blood Bank',
           }
       },
       {
@@ -92,7 +92,7 @@ const routes =[
         name:'ResetPassword',
         component:ResetPassword,
         meta: {
-            title: 'ResetPassword | Cuba - Premium Admin Template',
+            title: 'ResetPassword | Floating Blood Bank',
           }
       },
       {
@@ -100,7 +100,7 @@ const routes =[
         name:'Maintenance',
         component:Maintenance,
         meta: {
-            title: 'ResetPassword | Cuba - Premium Admin Template',
+            title: 'ResetPassword | Floating Blood Bank',
           }
       },
       {
@@ -111,7 +111,7 @@ const routes =[
           name: 'Login 1',
           component: login,
           meta: {
-            title: ' login | Cuba - Premium Admin Template',
+            title: ' login | Floating Blood Bank',
           }
         },
         {
@@ -119,7 +119,7 @@ const routes =[
           name: 'register 1',
           component: Register,
           meta: {
-            title: ' Register | Cuba - Premium Admin Template',
+            title: ' Register | Floating Blood Bank',
           }
         }
         ]
