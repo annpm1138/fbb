@@ -2,14 +2,13 @@ import {createRouter, createWebHistory} from "vue-router"
 import Body from '../components/body';
 import Default from '../pages/dashboard/defaultPage.vue';
 /* Authentication */
-import LoginOne from '../pages/authentication/login_one';
-import LoginTwo from '../pages/authentication/login_two';
+import LoginOne from '../pages/authentication/login';
 import LoginValidate from '../pages/authentication/login_validation.vue';
 import LoginTooltip from '../pages/authentication/login_tooltip.vue'
 import LoginSweetalert from '../pages/authentication/login_sweetalert.vue'
 
-import RegisterImage from '../pages/authentication/register_image';
-import RegisterImage2 from '../pages/authentication/register_image2';
+
+import RegisterImage2 from '../pages/authentication/register';
 import Unlock from '../pages/authentication/unlock';
 import ForgetPassword from '../pages/authentication/forget_password';
 import ResetPassword from '../pages/authentication/reset_password';
@@ -33,19 +32,11 @@ const routes =[
         ]
       },
       {
-        path:'/authentication/login/one',
+        path:'/authentication/login',
         name:'LoginOne',
         component:LoginOne,
         meta: {
             title: 'Floating Blood Bank | dfjfn',
-          }
-      },
-      {
-        path:'/authentication/login/two',
-        name:'LoginTwo',
-        component:LoginTwo,
-        meta: {
-            title: 'LoginTwo | Cuba - Premium Admin Template',
           }
       },
       {
@@ -73,15 +64,7 @@ const routes =[
           }
       },
       {
-        path:'/authentication/register/image',
-        name:'RegisterImage',
-        component:RegisterImage,
-        meta: {
-            title: 'RegisterImage | Cuba - Premium Admin Template',
-          }
-      },
-      {
-        path:'/authentication/register/image2',
+        path:'/authentication/register',
         name:'RegisterImage2',
         component:RegisterImage2,
         meta: {
